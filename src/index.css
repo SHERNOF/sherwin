@@ -19,6 +19,13 @@ code {
 
 :root {
   /* --mainColor: rgba(0, 0, 0, 0.5); */
-  --mainColor: rgba(37, 161, 211, 0.847);
+  --mainColor: rgba(255, 111, 0, 0.847);
   --background: #1f1f1f;
+  --border: #565656;
+  --white: rgba(255, 255, 255, 0.5);
+  --darkerWhite: rgba(255, 255, 255, 0.25);
+  --lighterWhite: rgba(255, 255, 255, 0.75);
+  --solidwhite: white;
+  --boxshadow: 1px 1px 5px rgba(118, 118, 118, 0.5);
+  --boxshadowhover: 0px 0px 5px var(--mainColor);
 }

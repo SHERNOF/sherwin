@@ -1,0 +1,14 @@
+.myButton {
+  border: 1px solid var(--mainColor);
+  width: 100%;
+  background: none;
+  height: 3rem;
+  border-radius: 50px;
+  color: var(--white);
+  transition: all 0.5s;
+}
+.myButton:hover {
+  color: var(--solidWhite);
+  cursor: pointer;
+  background: var(--mainColor);
+}
