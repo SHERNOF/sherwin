@@ -3,3 +3,8 @@
   height: 100%;
   width: 10%;
 }
+@media(max-width:490px){
+  .column3{
+    width: 100%;
+  }
+}

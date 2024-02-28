@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Button from "../../ui/button/Button";
 import { IoMdMailOpen } from "react-icons/io";
+import { FaGear } from "react-icons/fa6";
 
 export default function Column1() {
   return (
@@ -28,10 +29,13 @@ export default function Column1() {
             <FaGithub />
           </div>
         </div>
+        <div className={classes.buttonContainer}>
         <Button>
           <IoMdMailOpen /> Hire Me
         </Button>
+        </div>
       </div>
+      <div className={classes.gear}><FaGear /></div>
     </div>
   );
 }

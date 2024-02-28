@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 4rem;
+    background: var(--background);
+   
+}
+@media (width:490px ){
+    .app{
+        /* flex-direction: column; */
+        border: 1px solid red;
+        height: auto;
+    }
+    
+}

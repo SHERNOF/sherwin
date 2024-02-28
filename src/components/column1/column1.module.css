@@ -8,32 +8,25 @@
   justify-content: center;
   border-radius: 20px;
   box-shadow: var(--boxshadow);
+  position: relative;
 }
 .column1Content {
   width: 80%;
   height: 90%;
-  /* border: 1px solid red; */
-  /* display: flex;
-  align-items: space-between;
-  justify-content: center;
-  flex-direction: column; */
 }
 .name {
-  /* border: 1px solid white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .photo {
-  /* border-bottom: 1px solid white; */
-  width: 100%;
   height: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .photo img {
-  width: 90%;
+  max-width: 80%;
   height: 90%;
 }
 .icons {
@@ -43,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
 }
 .iconContainer {
   margin: 0 1rem;
@@ -67,4 +60,41 @@
 .iconContainer * {
   font-size: 0.8em;
   color: var(--border);
+}
+.buttonContainer{
+  border: 1px solid red;
+  height: 5rem;
+  width: 100%;
+  position: relative;
+}
+.gear{
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  height: 2rem ;
+  width: 2rem;
+  position: absolute;
+  top: -.75rem;
+  left: -.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  overflow: hidden;
+  background: var(--background);
+  animation: spin 5s infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to{transform: rotate(360deg);}
+}
+
+@media(max-width:490px){
+  .column1{
+    width: 100%;
+    height: auto;
+  }
 }

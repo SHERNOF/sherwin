@@ -5,3 +5,8 @@
   margin: 0 2rem;
   border: 1px solid blue;
 }
+@media(max-width:490px){
+  .column2{
+    width: 100%;
+  }
+}
