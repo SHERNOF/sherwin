@@ -2,11 +2,15 @@
   width: 60%;
   border: 1px solid rgba(111, 111, 111, 0.2);
   height: 100%;
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
+}
+.col2Container {
+  width: 90%;
+  height: 100%;
   border: 1px solid blue;
 }
-@media(max-width:490px){
-  .column2{
+@media (max-width: 490px) {
+  .column2 {
     width: 100%;
   }
 }

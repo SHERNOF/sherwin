@@ -28,4 +28,7 @@ code {
   --solidwhite: white;
   --boxshadow: 1px 1px 5px rgba(118, 118, 118, 0.5);
   --boxshadowhover: 0px 0px 5px var(--mainColor);
+  --df: flex;
+  --jc: center;
+  --al: center --center();
 }
