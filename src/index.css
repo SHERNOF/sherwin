@@ -10,6 +10,8 @@ body {
 
   color: rgba(255, 255, 255, 0.6);
   color: white;
+  font-family: "Inter", sans-serif;
+  background: var(--background);
 }
 
 code {
@@ -18,7 +20,6 @@ code {
 }
 
 :root {
-  /* --mainColor: rgba(0, 0, 0, 0.5); */
   --mainColor: rgba(255, 111, 0, 0.847);
   --background: #1f1f1f;
   --border: #565656;

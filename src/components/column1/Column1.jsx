@@ -12,8 +12,7 @@ export default function Column1() {
     <div className={classes.column1}>
       <div className={classes.column1Content}>
         <div className={classes.name}>
-          <h1 style={{ color: "var(--mainColor)" }}>Sherwin Nofuente</h1>
-          <h6 style={{ textAlign: "right" }}>Aspiring React Developer</h6>
+          <h2 style={{ textAlign: "right" }}>Aspiring React Developer</h2>
         </div>
         <div className={classes.photo}>
           <img alt="im" src="/pics/im.png" />
@@ -30,12 +29,14 @@ export default function Column1() {
           </div>
         </div>
         <div className={classes.buttonContainer}>
-        <Button>
-          <IoMdMailOpen /> Hire Me
-        </Button>
+          <Button>
+            <IoMdMailOpen /> Hire Me
+          </Button>
         </div>
       </div>
-      <div className={classes.gear}><FaGear /></div>
+      <div className={classes.gear}>
+        <FaGear />
+      </div>
     </div>
   );
 }

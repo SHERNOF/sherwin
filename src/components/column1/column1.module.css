@@ -2,7 +2,6 @@
   border: 1px solid #565656;
   width: 30%;
   height: 100%;
-  margin: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +50,6 @@
   transition: all 0.2s;
 }
 .iconContainer:hover {
-  /* background: var(--mainColor); */
   border: none;
   box-shadow: var(--boxshadowhover);
   transform: scale(1.1);
@@ -67,7 +65,6 @@
   padding: 1rem 0;
 }
 .gear {
-  /* border: 1px solid white; */
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
@@ -95,7 +92,10 @@
 
 @media (max-width: 490px) {
   .column1 {
-    width: 100%;
-    height: auto;
+    width: 95%;
+    margin: 2rem 0;
+  }
+  .column1Content {
+    height: 100%;
   }
 }
