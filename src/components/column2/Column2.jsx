@@ -17,8 +17,9 @@ export default function Column2() {
           </h1>
           <p>My passion is to code beautifuuly designed website.</p>
           <h2 style={{ color: "var(--mainColor)" }}>To God be the Glory...</h2>
-          {/* <RotatingText></RotatingText> */}
         </div>
+        <div className={classes.rotatingTextContainer}>test</div>
+        <div className={classes.rotatingTextContainer}>test2</div>
       </div>
     </div>
   );

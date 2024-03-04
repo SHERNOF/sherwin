@@ -1,11 +1,16 @@
 .column2 {
-  width: 65%;
-  height: 100%;
+  width: 1200px;
+  /* height: 300px; */
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow-y: scroll;
+  justify-content: flex-end;
+  position: absolute;
+  border: 1px solid white;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  overflow-x: auto;
+  height: 50rem;
 }
 .col2Container {
   position: absolute;
@@ -38,6 +43,11 @@
 }
 .introContainer p {
   font-size: 0.9em;
+}
+.rotatingTextContainer {
+  border: 1px solid white;
+  width: 100%;
+  height: 50rem;
 }
 @media (max-width: 490px) {
   .column2 {
