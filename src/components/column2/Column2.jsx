@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./column2.module.css";
 import { FaRegLightbulb } from "react-icons/fa";
-import RotatingText from "../rotating text/RotatingText";
+import Rtext from "../rotating text/Rtext";
 
 export default function Column2() {
   return (
@@ -18,8 +18,9 @@ export default function Column2() {
           <p>My passion is to code beautifuuly designed website.</p>
           <h2 style={{ color: "var(--mainColor)" }}>To God be the Glory...</h2>
         </div>
-        <div className={classes.rotatingTextContainer}>test</div>
-        <div className={classes.rotatingTextContainer}>test2</div>
+        <div className={classes.rotatingTextContainer}>
+          <Rtext />
+        </div>
       </div>
     </div>
   );

@@ -92,9 +92,13 @@
 }
 
 @media (max-width: 490px) {
-  .column1 {
-    width: 95%;
-    margin: 2rem 0;
+  .leftsidebar {
+    max-width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    position: absolute;
+    top: 15%;
+    transform: translateY(-15%);
   }
   .column1Content {
     height: 100%;
