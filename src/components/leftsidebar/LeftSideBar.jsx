@@ -6,13 +6,20 @@ import { FaGithub } from "react-icons/fa";
 import Button from "../../ui/button/Button";
 import { IoMdMailOpen } from "react-icons/io";
 import { FaGear } from "react-icons/fa6";
+import Switch from "../../ui/switch/Switch";
 
-export default function LeftSideBar() {
+export default function LeftSideBar({ shernof }) {
+  const info = shernof;
+  console.log(info.name);
   return (
     <div className={classes.leftsidebar}>
       <div className={classes.column1Content}>
+        <div className={classes.switchContainer}>
+          <Switch />
+        </div>
         <div className={classes.name}>
-          <h2 style={{ textAlign: "right" }}>Aspiring React Developer</h2>
+          {/* <h2 style={{ textAlign: "right" }}>Aspiring React Developer</h2> */}
+          <h2 style={{ textAlign: "right" }}>{info.name}</h2>
         </div>
         <div className={classes.photo}>
           <img alt="im" src="/pics/im.png" />
